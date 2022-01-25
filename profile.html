@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Profile Card Hover Animation </title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="container">
+         <div class="wrapper">
+            <a href="https://www.instagram.com/cris.ayoub/?fbclid=IwAR0abru_M3fWQQmrLKpLhaOfMDHpP1ZY4P0j_b-ocEh5-82FxlbzSEnBokQ">
+            <img src="ayoub.jpg" alt="ayoub">
+            </a>
+            <div class="title">
+               Ayoub Rehail           </div>
+            <div class="place">
+               SKIKDA, ALGERIA
+            </div>
+         </div>
+         <div class="content">
+            <p>
+               Web developer and <br>photographer
+            </p>
+            <div class="buttons">
+               <div class="btn">
+                  <a href= https://www.facebook.com/ayoub.cris.fr> <button>Message</button></a>
+               </div>
+               <div class="btn">
+                  <a href="https://www.instagram.com/cris.ayoub/?fbclid=IwAR0abru_M3fWQQmrLKpLhaOfMDHpP1ZY4P0j_b-ocEh5-82FxlbzSEnBokQ"> <button>Following</button></a>
+               </div>
+            
+            </div>
+         </div>
+         <div class="icons">
+            <li><a href="https://www.facebook.com/ayoub.cris.fr"><span class="fab fa-facebook-f"></span></a></li>
+            <li><a href="https://twitter.com/RehailAyoub"><span class="fab fa-twitter"></span></a></li>
+            <li><a href="https://www.instagram.com/cris.ayoub/?fbclid=IwAR0abru_M3fWQQmrLKpLhaOfMDHpP1ZY4P0j_b-ocEh5-82FxlbzSEnBokQ"><span class="fab fa-instagram"></span></a></li>
+            <li><a href="https://www.Linkedin.com/in/ayoub-rehail-869838199"><span class="fab fa-linkedin"></span></a></li>
+         </div>
+      </div>
+      <script>
+         const img = document.querySelector("image");
+         const icons = document.querySelector(".icons");
+         img.onclick = function(){
+           this.classList.toggle("active");
+           icons.classList.toggle("active");
+         }
+      </script>
+   </body>
+</html>
